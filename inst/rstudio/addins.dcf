@@ -1,0 +1,5 @@
+Name: Chunk the code
+Description: Wrap the copied code with r markdown code chunk
+Binding: chunkthis
+Interactive: false
+
