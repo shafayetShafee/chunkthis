@@ -15,12 +15,3 @@ You can install the development version of chunkthis from [GitHub](https://githu
 devtools::install_github("shafayetShafee/chunkthis")
 ```
 
-## Example
-
-This is a basic example which shows you how to solve a common problem:
-
-``` r
-library(chunkthis)
-## basic example code
-```
-
