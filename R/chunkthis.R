@@ -4,7 +4,7 @@
 #' @export
 
 chunkthis <- function() {
-  copied <- clipr::read_clip()
+  copied <- paste0(clipr::read_clip(), collapse = "\n")
   rstudioapi::insertText(paste0("```{r}\n", copied, "\n```"))
 }
 
