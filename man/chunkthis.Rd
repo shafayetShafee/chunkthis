@@ -3,12 +3,8 @@
 \name{chunkthis}
 \alias{chunkthis}
 \title{Wrap the copied code with r markdown code-chunk fence}
-\usage{
-Simple copy a code and then go to \strong{Addins} and click
-\strong{Chunk the code}. Also you can add a shortcut for
-this Addin like any other Addins
-}
 \description{
-Provides a Rstudio Addin wrap the copied code with r-markdown
-code-chunk fence
+Simple copy a code and then go to Addins and click
+Chunk the code. Also you can add a shortcut for
+this Addin like any other Rstudio Addins.
 }
