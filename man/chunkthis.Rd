@@ -2,10 +2,13 @@
 % Please edit documentation in R/chunkthis.R
 \name{chunkthis}
 \alias{chunkthis}
-\title{Wrap the copied code with r markdown code chunk}
+\title{Wrap the copied code with r markdown code-chunk fence}
 \usage{
-chunkthis()
+Simple copy a code and then go to \strong{Addins} and click
+\strong{Chunk the code}. Also you can add a shortcut for
+this Addin like any other Addins
 }
 \description{
-This Rstuido Addin wrap the copied code with r markdown code chunk
+Provides a Rstudio Addin wrap the copied code with r-markdown
+code-chunk fence
 }

@@ -4,11 +4,17 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of chunkthis is to a Rstudio addin to copy code and paste it wrapped with r-markdown code chunk.
+The goal of `chunkthis` is to provide a Rstudio addin to paste a copied code wrapped with r-markdown code-chunk fence like,
+
+~~~
+```{r}
+copied-code
+```
+~~~
 
 ## Installation
 
-You can install the development version of chunkthis from [GitHub](https://github.com/) with:
+You can install the development version of `chunkthis` from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
