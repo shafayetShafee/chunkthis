@@ -8,9 +8,10 @@
 
 chunkthis <- function() {
   if (!clipr::clipr_available()) {
+    dr_msg <- suppressMessages(clipr::dr_clipr())
     error_message <- paste0("Your system is not properly configured to allow access to the clipboard\n",
       "Additional Info: ",
-      clipr::dr_clipr()
+      dr_msg
       )
     stop(error_message, call. = FALSE)
   } else {
