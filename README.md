@@ -17,8 +17,8 @@ copied-code
 You can install the development version of `chunkthis` from [GitHub](https://github.com/) with:
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("shafayetShafee/chunkthis")
+# install.packages("remotes")
+remotes::install_github("shafayetShafee/chunkthis")
 ```
 
 ## How to use

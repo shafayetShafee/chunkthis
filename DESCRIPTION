@@ -1,13 +1,13 @@
 Package: chunkthis
-Title: Wrap the copied code with r markdown code-chunk fence
-Version: 0.0.0.9000
+Title: Wrap the copied code with knitr code-chunk fence
+Version: 0.0.2
 Authors@R: 
-    person("Shafayet Khan", "Shafee", , "shafayetshafee@gmail.com", role = c("aut", "cre"))
-Description: Provides a Rstuido Addin to wrap the copied code with r-markdown code-chunk fence.
+    person("Shafayet Khan", "Shafee", , "sshafee@isrt.ac.bd", role = c("aut", "cre"))
+Description: Provides a Rstuido Addin to wrap the copied code with knitr code-chunk fence to use in R-markdown or Quarto document.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.0
+RoxygenNote: 7.2.3
 URL: https://github.com/shafayetShafee/chunkthis
 BugReports: https://github.com/shafayetShafee/chunkthis/issues
 Imports: 

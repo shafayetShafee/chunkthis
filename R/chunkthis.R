@@ -7,8 +7,17 @@
 #' @export
 
 chunkthis <- function() {
-  copied <- paste0(clipr::read_clip(), collapse = "\n")
-  rstudioapi::insertText(paste0("```{r}\n", copied, "\n```"))
+  if (!clipr::clipr_available()) {
+    dr_msg <- suppressMessages(clipr::dr_clipr())
+    error_message <- paste0("Your system is not properly configured to allow access to the clipboard\n",
+      "Additional Info: ",
+      dr_msg
+      )
+    stop(error_message, call. = FALSE)
+  } else {
+    copied <- paste0(clipr::read_clip(), collapse = "\n")
+    rstudioapi::insertText(paste0("```{r}\n", copied, "\n```"))
+  }
 }
 
 
